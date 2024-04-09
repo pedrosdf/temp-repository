@@ -54,7 +54,7 @@ view: users {
 
   dimension: age_tier {
     type: tier
-    tiers: [9, 19, 29, 39, 49, 59, 69, 79, 89, 99 ]
+    tiers: [1, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
     sql: ${age} ;;
     style: integer
   }
